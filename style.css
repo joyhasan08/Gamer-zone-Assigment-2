@@ -103,6 +103,44 @@
 
 /*<!--play instant section-->*/
 
+.play-section{
+    display: flex;
+    max-width: 1440px;
+    margin: 0% auto;
+    justify-content: space-around;
+
+}
+.play-title{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: right;
+    padding: 1%;
+
+}
+.play-story{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: right;
+    color: #534C64;
+    padding: 1%;
+
+}
+.play-content{
+
+    padding: 5%;
+    
+}
+.pic-one{
+    padding: 1%;
+}
+.pic-two{
+    border-radius: 8px;
+    border: 10px solid #FFF;
+
+    position: relative;
+    bottom: 200px;
+    right: 200px;
+}
 
 
 
@@ -192,7 +230,7 @@
         width: 80%;
     }
     /*<!--play instant section-->*/
-    
+
 
 
 }
