@@ -184,7 +184,7 @@
 @media screen and (max-width: 576px) {
     .banner-container{ /*banner section*/
         flex-direction: column-reverse;
-        width: 133%;
+        width: 100%;
         margin: 0%;
     }
     .banner-img-container>img{
@@ -194,16 +194,24 @@
         width: 100%;
      
     }
+    .shear-title{
+        font-size: 2.5rem;
+        padding: 1%;
+    }
     .banner-heading{
-        font-size: 7rem;
-        margin-top: 0%;
-       
+        font-size: 5rem;
+      
+        padding-bottom: 20%;
+
     
         background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         
+    }
+    .banner-story{
+        padding: 2%;
     }
     .button-container{
         width: 100%;
@@ -213,24 +221,70 @@
      /*online games section*/
     .games-container{
         flex-direction: column;
+        width: 100%;
     }
     .games-card img{
-        width: 25%;
-        padding: 1%;
-       
+        width: 100%;
+
+    }
+    .games-card{
+        width: 100%;
     }
     .games-title{
-        font-size: 1rem;
+        font-size: 3rem;
+        
+
     }
-    .font-color{
-        font-size: 1rem;
-        flex-wrap: wrap;
+    .games-story{
+        
     }
+ 
     .games-section-title-div{
-        width: 80%;
+        width: 100%;
     }
     /*<!--play instant section-->*/
+    .play-section{
+        flex-direction: column;
 
+        
+    
+    }
+    .play-title{
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: right;
+        padding: 1%;
+    
+    }
+    .play-story{
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-align: right;
+        color: #534C64;
+        padding: 1%;
+    
+    }
+    .play-content{
+    
+        padding: 5%;
+        
+    }
+    .play-pic{
+        padding: 2%;
+    }
+    .pic-one{
+        padding: 1%;
+        width: 95%;
+    }
+    .pic-two{
+        width: 100px ;
+        border-radius: 8px;
+        border: 10px solid #FFF;
+    
+        position: relative;
+        bottom: 100px;
+        right: 10px;
+    }
 
 
 }
