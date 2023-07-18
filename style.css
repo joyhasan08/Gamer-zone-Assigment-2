@@ -24,7 +24,6 @@
     display: flex;
 }
 .banner-content{
-    border: red solid;
     width: 50%;
     justify-content: center;
     background-image: url('./images/Group\ 14.png');
@@ -45,7 +44,6 @@
 .banner-story{
     font-size: 1.4rem;
     margin-top: -90px;
-    border: #8758F1 solid;
 
 }
 /*button desgine*/
@@ -103,6 +101,8 @@
     text-align: center;
 }
 
+/*<!--play instant section-->*/
+
 
 
 
@@ -144,22 +144,22 @@
 
 
 @media screen and (max-width: 576px) {
-    .banner-container{
+    .banner-container{ /*banner section*/
         flex-direction: column-reverse;
-        width: fit-content;
+        width: 133%;
+        margin: 0%;
     }
-    .banner-container{
-        width: 100%;
-    }
-    .banner-img-container img{
+    .banner-img-container>img{
         width: 100%;
     }
     .banner-content{
         width: 100%;
+     
     }
     .banner-heading{
-        font-size: 5rem;
-        margin-top: -1rem;
+        font-size: 7rem;
+        margin-top: 0%;
+       
     
         background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
         background-clip: text;
@@ -167,13 +167,32 @@
         -webkit-text-fill-color: transparent;
         
     }
+    .button-container{
+        width: 100%;
+    }
 
 
-
+     /*online games section*/
     .games-container{
         flex-direction: column;
     }
-  
+    .games-card img{
+        width: 25%;
+        padding: 1%;
+       
+    }
+    .games-title{
+        font-size: 1rem;
+    }
+    .font-color{
+        font-size: 1rem;
+        flex-wrap: wrap;
+    }
+    .games-section-title-div{
+        width: 80%;
+    }
+    /*<!--play instant section-->*/
+    
 
 
 }
