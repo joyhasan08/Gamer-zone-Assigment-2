@@ -5,9 +5,13 @@
 /*shear component*/
 .shear-title{
     font-size: 3rem;
-
-    
-    
+   
+}
+.font-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
@@ -85,3 +89,15 @@
     font-weight: 500;
     color: #534C64;
 } 
+.games-title{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+
+}
+.games-story{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #534C64;
+    text-align: center;
+}
