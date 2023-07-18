@@ -1,0 +1,87 @@
+*{
+   font-family: 'Work Sans', sans-serif;
+}/* max width 1440 */
+
+/*shear component*/
+.shear-title{
+    font-size: 3rem;
+
+    
+    
+
+}
+
+/*banner section*/
+.banner{
+   max-width: 1440px;
+   margin: 0% auto;
+}
+.banner-container{
+    display: flex;
+}
+.banner-content{
+    border: red solid;
+    width: 50%;
+    justify-content: center;
+    background-image: url('./images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.banner-heading{
+    font-size: 8rem;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -40px;
+}
+.banner-story{
+    font-size: 1.4rem;
+    margin-top: -90px;
+    border: #8758F1 solid;
+
+}
+/*button desgine*/
+.button-container{
+
+}
+.pink-btn{
+    padding: 21px 40px;
+    border-radius: 48px;
+    background-color:   #FF42A5;
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+}
+.blue-btn{
+    padding: 21px 40px;
+    border-radius: 48px;
+    color: white;
+    font-size: 1.3rem;
+    background-color: #4EC5F7;
+    border: none;
+    
+    
+}
+/*banner section -end*/
+
+/*online games section*/
+.games-section{
+    max-width: 1440px;
+    margin: 0% auto;
+}
+.games-container{
+    display: flex;
+}
+.games-card{
+    width: 342px;
+    height: 400px;
+    padding: 24px;
+}
+.game-description{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #534C64;
+} 
