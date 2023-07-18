@@ -34,12 +34,13 @@
 }
 .banner-heading{
     font-size: 8rem;
+    margin-top: -40px;
 
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-top: -40px;
+    
 }
 .banner-story{
     font-size: 1.4rem;
@@ -80,9 +81,9 @@
     display: flex;
 }
 .games-card{
-    width: 342px;
-    height: 400px;
-    padding: 24px;
+    width: 30%;
+    padding: 1%;
+   
 }
 .game-description{
     font-size: 1.3rem;
@@ -100,4 +101,79 @@
     font-weight: 400;
     color: #534C64;
     text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .banner-container{
+        flex-direction: column-reverse;
+        width: fit-content;
+    }
+    .banner-container{
+        width: 100%;
+    }
+    .banner-img-container img{
+        width: 100%;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-heading{
+        font-size: 5rem;
+        margin-top: -1rem;
+    
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
+
+
+
+    .games-container{
+        flex-direction: column;
+    }
+  
+
+
 }
