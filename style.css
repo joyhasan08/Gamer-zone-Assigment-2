@@ -146,7 +146,7 @@
 
 .game-genres{
     max-width: 1920px;
-    height: 427px;
+    height: fit-content;
     background-color: rgba(255, 66, 165, 0.03);
     margin: 0 auto;
 }
@@ -168,8 +168,8 @@
    /* flex-wrap: wrap;*/
     border-radius: 50px;
     background: #FFF;
-    width: 280px ;
-    height: 80px;
+    width: fit-content ;
+    height: fit-content;
     margin-left: 1rem;
     margin-bottom: 0.5rem;
       
