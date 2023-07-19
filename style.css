@@ -161,7 +161,13 @@ nav{
 .games-card{
     width: 30%;
     padding: 1%;
-   
+    /*hover effect*/
+    filter: brightness(100%);
+    transition: filter .3s ease;
+
+}
+.games-card:hover{ 
+    filter: brightness(40%);
 }
 .game-description{
     font-size: 1.3rem;
@@ -259,9 +265,9 @@ nav{
    /* border: #F948B2 solid 1px;*/
       
 }
-.game-pill:hover{
+.game-pill:hover{ /*hover effect*/
     border: #F948B2 solid 1px;
-    color: #FF42A5;
+color: #FF42A5;
    background-color: #fcd6ea;
 }
 /*.game-pill >img{
