@@ -468,10 +468,13 @@ footer{
 
 
     /*footer section*/
+    footer{
+        width: 100%;
+    }
     .footer-container{
         width: 100%;
         height:fit-content;
-        border: #771818 solid;
+   
     }
     .footer-icon{
         width: fit-content;
@@ -482,12 +485,13 @@ footer{
         color: white;
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: center;
         gap: 16px;
         list-style: none;
         font-size: 0.8rem;
         font-weight: 600;
         margin-top: 5%;
+        padding-left: 0;
         
     }
     .footer-last{
