@@ -1,4 +1,4 @@
-*{
+*{ 
    font-family: 'Work Sans', sans-serif;
 }/* max width 1440 */
 
@@ -51,7 +51,12 @@
 .banner-story{
     font-size: 1.4rem;
     margin-top: -90px;
+    justify-content: center;
 
+
+}
+.tiny-icon >img{ 
+    width: 21px;     
 }
 /*button desgine*/
 .button-container{
@@ -258,6 +263,11 @@
     }
     .banner-story{
         padding: 2%;
+        inline-size: auto;
+         font-size: 1rem;
+    }
+    .tiny-icon >img{ 
+        width: 1rem;     
     }
     .button-container{
         width: 100%;
