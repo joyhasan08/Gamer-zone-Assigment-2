@@ -142,10 +142,49 @@
     right: 200px;
 }
 
+/*<!--game-genres section-->*/
 
+.game-genres{
+    max-width: 1920px;
+    height: 427px;
+    background-color: rgba(255, 66, 165, 0.03);
+    margin: 0 auto;
+}
 
-
-
+.game-genres-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    max-width: 1440px;
+    margin: 0% auto;
+    border: #FF42A5 solid;
+    padding: 5% 10% 5% ;
+  
+}
+.game-pill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* flex-wrap: wrap;*/
+    border-radius: 50px;
+    background: #FFF;
+    width: 280px ;
+    height: 80px;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+      
+}
+/*.game-pill >img{
+    width: 60px;
+    height: 60px;
+}*/
+.game-type{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #0B0223;
+    padding-left: 5px;
+ 
+}
 
 
 
@@ -285,6 +324,7 @@
         bottom: 100px;
         right: 10px;
     }
+    /*<!--game-genres section-->*/
 
 
 }
