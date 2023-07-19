@@ -168,6 +168,7 @@ nav{
 }
 .games-card:hover{ 
     filter: brightness(40%);
+    
 }
 .game-description{
     font-size: 1.3rem;
