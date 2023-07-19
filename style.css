@@ -406,6 +406,7 @@ footer{
     .games-container{
         flex-direction: column;
         width: 100%;
+       
     }
     .games-card img{
         width: 100%;
@@ -413,18 +414,20 @@ footer{
     }
     .games-card{
         width: 100%;
+       
     }
     .games-title{
-        font-size: 3rem;
+        font-size: 1.2rem;
         
 
     }
     .games-story{
-        
+        font-size: 0.8rem ;
     }
  
     .games-section-title-div{
         width: 100%;
+        margin-top: 50px;
     }
     /*<!--play instant section-->*/
     .play-section{
