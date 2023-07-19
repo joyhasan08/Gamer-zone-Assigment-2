@@ -132,6 +132,7 @@ nav{
     color: white;
     font-size: 1.3rem;
     border: none;
+    margin-bottom: 10px;
 }
 .blue-btn{
     padding: 21px 40px;
@@ -331,11 +332,8 @@ nav{
     .tiny-icon >img{ 
         width: 1rem;     
     }
-    .button-container{
-        width: 100%;
-    }
-
-
+    /*btn pink and blue*/
+    
      /*online games section*/
     .games-container{
         flex-direction: column;
@@ -413,19 +411,8 @@ nav{
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     /*<!--game-genres section-->*/
+
 
 
 }
