@@ -164,11 +164,13 @@ nav{
     font-size: 1.3rem;
     font-weight: 500;
     color: #534C64;
+    margin-bottom: ;
 } 
 .games-title{
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
+    margin-top: 5%;
 
 }
 .games-story{
@@ -176,6 +178,7 @@ nav{
     font-weight: 400;
     color: #534C64;
     text-align: center;
+    margin-bottom: 5%;
 }
 
 /*<!--play instant section-->*/
@@ -185,6 +188,9 @@ nav{
     max-width: 1440px;
     margin: 0% auto;
     justify-content: space-around;
+    border: #F948B2 solid;
+    margin-top: 5%;
+    margin-bottom: 5%;
 
 }
 .play-title{
@@ -226,6 +232,7 @@ nav{
     height: fit-content;
     background-color: rgba(255, 66, 165, 0.03);
     margin: 0 auto;
+    border: #8758F1 solid;
 }
 
 .game-genres-container{
@@ -235,6 +242,7 @@ nav{
     max-width: 1440px;
     margin: 0% auto;
     padding: 5% 10% 5% ;
+    border: #4EC5F7 solid;
   
 }
 .game-pill{
@@ -246,8 +254,9 @@ nav{
     background: #FFF;
     width: fit-content ;
     height: fit-content;
-    margin-left: 1rem;
+    margin-left: 2rem;
     margin-bottom: 0.5rem;
+    border: #F948B2 solid 1px;
       
 }
 /*.game-pill >img{
@@ -466,7 +475,21 @@ footer{
 
 
     /*<!--game-genres section-->*/
-
+        .game-pill{
+            padding: 0%;
+            margin: 0%;
+            margin-bottom: 10px;
+            
+            
+        }
+        .game-pill >img{
+            width: 35px;
+            
+           
+        }
+        .game-type{
+            font-size: 0.5rem;
+        }
 
 
     /*footer section*/
@@ -476,6 +499,7 @@ footer{
     .footer-container{
         width: 100%;
         height:fit-content;
+        
    
     }
     .footer-icon{
@@ -501,11 +525,15 @@ footer{
         font-size: 0.5rem;
         width: fit-content;
 
+
     }
-    .footer-last ul li{
+    .footer-last ul{
 
-        width: fit-content;
-
+        
+        
+        margin: 10px auto;
+        padding: 2%;
+        
     }
 
 }
