@@ -12,22 +12,19 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 /*nav bar section*/
 
-nav{
-   
+nav{  
     padding: 5px;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 .nav-coantainer{
     display: flex;
     max-width: 1440px;
     margin: 0 auto;
     justify-content: space-between;
-
 }
 .nav-icon{
    display: flex;
@@ -164,7 +161,17 @@ nav{
     /*hover effect*/
     filter: brightness(100%);
     transition: filter .3s ease;
-
+}
+.play-btn{
+    position: absolute;
+    width: fit-content;
+    padding: 42% 38% 42% 38%;
+    bottom: 25%;
+ 
+    opacity: 0;
+}
+.play-btn:hover{
+    opacity: 1;
 }
 .games-card:hover{ 
     filter: brightness(40%);
@@ -268,7 +275,7 @@ nav{
 }
 .game-pill:hover{ /*hover effect*/
     border: #F948B2 solid 1px;
-color: #FF42A5;
+    color: #FF42A5;
    background-color: #fcd6ea;
 }
 /*.game-pill >img{
